@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "csstools.postcss",
+    "clinyong.vscode-css-modules",
+    "stylelint.vscode-stylelint",
+    "vunguyentuan.vscode-css-variables",
+    "esbenp.prettier-vscode"
+  ]
+}

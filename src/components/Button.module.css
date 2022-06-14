@@ -1,8 +1,19 @@
+@import '../tokens/colors.css';
+@import '../tokens/breakpoints.css';
+
 .button {
   appearance: none;
   border: 0;
-  background-color: tomato;
-  color: white;
-  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-primary-text);
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
+
+  @media (--bp-medium) {
+    padding: 0.5rem 1rem;
+  }
+
+  @media (--bp-large) {
+    padding: 1rem 2rem;
+  }
 }
