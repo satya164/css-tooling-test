@@ -1,8 +1,23 @@
+@value primary, primary-text from "../tokens/colors.css";
+@value medium as bp-medium, large as bp-large from "../tokens/breakpoints.css";
+
 .button {
   appearance: none;
   border: 0;
-  background-color: tomato;
-  color: white;
-  padding: 0.5rem 1rem;
+  background-color: primary;
+  color: primary-text;
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
+}
+
+@media bp-medium {
+  .button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media bp-large {
+  .button {
+    padding: 1rem 2rem;
+  }
 }
