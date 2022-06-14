@@ -3,7 +3,7 @@ import { Button } from './components/Button'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Button>Click me</Button>
     </div>
   );
