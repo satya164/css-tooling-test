@@ -1,0 +1,19 @@
+@use '../tokens/colors';
+@use '../tokens/breakpoints';
+
+.button {
+  appearance: none;
+  border: 0;
+  background-color: colors.$primary;
+  color: colors.$primary-text;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+
+  @include breakpoints.medium {
+    padding: 0.5rem 1rem;
+  }
+
+  @include breakpoints.large {
+    padding: 1rem 2rem;
+  }
+}

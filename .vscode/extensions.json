@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "clinyong.vscode-css-modules",
+    "stylelint.vscode-stylelint",
+    "mrmlnc.vscode-scss",
+    "esbenp.prettier-vscode"
+  ]
+}
